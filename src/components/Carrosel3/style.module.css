@@ -1,0 +1,151 @@
+.secaoCarrossel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 24px;
+}
+
+/* Spotify embed */
+.iframe1 {
+    width: calc(100% - 20px);
+    max-width: 860px;
+    height: 152px;
+    margin: 12px auto;
+    display: block;
+    border-radius: 12px;
+}
+
+/* Carrossel */
+.carrossel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carrosselItens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 12px;
+}
+
+/* Item / foto */
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 480px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 12px;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    max-height: 520px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+}
+
+.informacaoCarrossel {
+    padding: 8px 12px;
+    background-color: rgba(8, 2, 2, 0.95);
+    border-radius: 0 0 8px 8px;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+/* Seção de texto */
+.eu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    padding: 10px 16px;
+    width: 100%;
+    max-width: 640px;
+    text-align: center;
+}
+
+.eu h3 {
+    margin: 16px 0;
+}
+
+.linha {
+
+    hr {
+        display: flex;
+        gap: 20px;
+        color: red;
+        word-break: break-all;
+    }
+}
+
+.dec {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.6;
+    color: white;
+}
+
+.dec h1 {
+    color: white;
+    font-size: clamp(1rem, 4vw, 1.5rem);
+    padding: 10px 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.feliz {
+    color: red !important;
+}
+
+.emvolta {
+    display: flex;
+    margin: auto;
+    background-color: rgb(230, 116, 135);
+    width: 200px;
+    border-radius: 8px;
+
+    .final {
+        display: flex;
+        margin: auto;
+        color: white !important;
+    }
+}
+
+.prasempre {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.line {
+    display: flex;
+    margin-top: 10px;
+
+
+    hr {
+        display: flex;
+        margin: auto;
+        width: 200px;
+        color: red;
+    }
+}
